@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+
+.header-logo {
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-left: 20px;
+}
