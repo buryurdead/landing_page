@@ -64,7 +64,7 @@ ul li {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    padding-top: 20px;
+    padding: 20px 0 25px 0;
 }
 
 .pic-grid {
@@ -92,4 +92,59 @@ ul li {
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
+}
+
+.testimonial-container {
+    background: #E5E7EB;
+    padding: 100px 0 100px 0;
+}
+
+.size {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.callaction-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bluebox {
+    display: flex;
+    justify-content: space-between;
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 30px 75px;
+    width: 700px;
+    margin: 50px 20px;
+    border-radius: 10px;
+}
+
+.action-bold {
+    font-weight: 800;
+}
+
+.actionbutton {
+    align-items: center;
+}
+
+.action-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 10px 40px;
 }
